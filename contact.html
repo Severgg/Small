@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script defer src="js/fontawesome-all.min.js"></script>
+</head>
+
+<body>
+    <div class="bg-light">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Small Business</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="team.html">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown d-flex justify-content-end">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Change language:
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Русский</a></li>
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <hr>
+    </div>
+    <div class="bg-white">
+        <div class="container">
+            <p class="display-1 text-center">Contact</p>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <p class="h2">Address:</p>
+                    <ul class="list-group-item">
+                        <li class="list-group-item"><b>Company Name</b></li>
+                        <li class="list-group-item">350 5th Avenue</li>
+                        <li class="list-group-item">New York, NY 10118</li>
+                        <li class="list-group-item"><i class="fas fa-phone"></i><a href="#" data-bs-toggle="modal"
+                                data-bs-target="#modal"> (212)736-3100</a></li>
+                        <li class="list-group-item"><i class="fas fa-inbox"></i><a href="#" data-bs-toggle="modal"
+                                data-bs-target="#modal"> appnmae@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="h2">Opening hours:</p>
+                    <ul class="list-group-item">
+                        <li class="list-group-item">350 5th Avenue</li>
+                        <li class="list-group-item">New York, NY 10118</li>
+                        <li class="list-group-item"><i class="fas fa-phone"></i><a href="#" data-bs-toggle="modal"
+                                data-bs-target="#modal"> (212)736-3100</a></li>
+                        <li class="list-group-item"><i class="fas fa-inbox"></i><a href="#" data-bs-toggle="modal"
+                                data-bs-target="#modal"> appnmae@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <p class="h2">Send us a message:</p>
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputName" class="form-label">Name</label>
+                            <div class="input-group">
+                                <div class="input-group-text">@</div>
+                                <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <div class="input-group">
+                                <div class="input-group-text">@</div>
+                                <input type="text" class="form-control" id="autoSizingInputGroup"
+                                    placeholder="example@email.com">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputTel" class="form-label">Telephone</label>
+                            <div class="input-group">
+                                <div class="input-group-text">@</div>
+                                <input type="text" class="form-control" id="autoSizingInputGroup"
+                                    placeholder="0123456789">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputDep" class="form-label">Department:</label>
+                            <div class="input-group">
+                                <div class="input-group-text">@</div>
+                                <select class="form-select" id="autoSizingSelect">
+                                    <option selected>- select here -</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <p class="text-secondary"><small>Please select the recipient of your message.</small></p>
+                        </div>
+                        <div class="col-md-12">
+                            <label for="inputTel" class="form-label">Message:</label>
+                            <div class="input-group">
+                                <div class="input-group-text">@</div>
+                                <div class="form-floating text-secondary">
+                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                    <label for="floatingTextarea2">White your message here...</label>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-secondary">Reset</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="h2">Where to find us:</p>
+                    <figure class="figure">
+                        <img src="img/800x600.png" class="figure-img img-fluid">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-light">
+        <div class="container py-3 py-sm-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <ul class="list-group-item">
+                        <li class="list-group-item display-7 mb-2">Quick links</li>
+                        <li class="list-group-item"><a href="index.html" data-bs-toggle="modal"
+                                data-bs-target="#modal">Home</a>
+                        </li>
+                        <li class="list-group-item"><a href="services.html" data-bs-toggle="modal"
+                                data-bs-target="#modal">Services</a></li>
+                        <li class="list-group-item"><a href="about.html" data-bs-toggle="modal"
+                                data-bs-target="#modal">About</a>
+                        </li>
+                        <li class="list-group-item"><a href="team.html" data-bs-toggle="modal"
+                                data-bs-target="#modal">Team</a>
+                        </li>
+                        <li class="list-group-item"><a href="contact.html" data-bs-toggle="modal"
+                                data-bs-target="#modal">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <ul class="list-group-item">
+                        <li class="list-group-item display-7 mb-2">Information</li>
+                        <li class="list-group-item"><a href="#" data-bs-toggle="modal" data-bs-target="#modal">Legal
+                                information</a>
+                        </li>
+                        <li class="list-group-item"><a href="#" data-bs-toggle="modal" data-bs-target="#modal">Job
+                                opportunities</a></li>
+                        <li class="list-group-item"><a href="#" data-bs-toggle="modal"
+                                data-bs-target="#modal">Frequently Asked
+                                Questions</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <ul class="list-group-item">
+                        <li class="list-group-item display-7 mb-2">Follow us</li>
+                        <li class="list-group-item"><a href="#" data-bs-toggle="modal" data-bs-target="#modal"><i
+                                    class="fab fa-facebook"></i></i> facebook</a></li>
+                        <li class="list-group-item"><a href="#" data-bs-toggle="modal" data-bs-target="#modal"><i
+                                    class="fab fa-instagram"></i> instagram</a></li>
+                        <li class="list-group-item"><a href="#" data-bs-toggle="modal" data-bs-target="#modal"><i
+                                    class="fab fa-twitter"></i></i> twitter</a></li>
+                        <li class="list-group-item"><a href="#" data-bs-toggle="modal" data-bs-target="#modal"><i
+                                    class="fab fa-youtube"></i></i> youtube</a></li>
+                        <li class="list-group-item"><a href="#" data-bs-toggle="modal" data-bs-target="#modal"><i
+                                    class="fas fa-link"></i> link</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <ul class="list-group-item">
+                        <li class="list-group-item display-7 mb-2">Our location</li>
+                        <li class="list-group-item"><b>Company Name</b></li>
+                        <li class="list-group-item">350 5th Avenue</li>
+                        <li class="list-group-item">New York, NY 10118</li>
+                        <li class="list-group-item"><i class="fas fa-phone"></i><a href="#" data-bs-toggle="modal"
+                                data-bs-target="#modal"> (212)736-3100</a></li>
+                        <li class="list-group-item"><i class="fas fa-inbox"></i><a href="#" data-bs-toggle="modal"
+                                data-bs-target="#modal"> appnmae@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">&copy; 2020 Company Name</li>
+                        <li class="list-inline-item">All rights reserved.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
